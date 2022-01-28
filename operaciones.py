@@ -45,17 +45,13 @@ def cuadrados_tradicional():
 def eleva_cuadrado(n):
     return n**2
 
-def cuadrados_compresion():
-    cuadradosE = list(map(eleva_cuadrado, numeros))
-    print('Compresion ', cuadradosE)
-
 pares_tradicional()
 pares_compresion()
 par_if_else_compresion()
 bucle_anidado_tradicional()
 bucle_anidado_compresion()
 cuadrados_tradicional()
-cuadrados_compresion()
+
 
 
 
